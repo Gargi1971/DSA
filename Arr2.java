@@ -1,5 +1,5 @@
-import java.util.* ;
-import java.io.*; 
+// import java.util.* ;
+// import java.io.*; 
 import java.util.Scanner;
 
 public class Arr2 {
@@ -41,6 +41,7 @@ public class Arr2 {
       for(int i = 0; i < n; i++){
         arr[i] = sc.nextInt();
       }
+      sc.close();
       System.out.println(sumOfMaxMin(arr, n));
     }
     
