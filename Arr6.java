@@ -8,9 +8,7 @@ public class Arr6 {
 
         for (int i = 0; i < nums.size(); i++) {
 
-            if (nums.get(i) < 0) {
-
-               
+            if (nums.get(i) < 0) {  
                 if (i != j) {
                     int temp = nums.get(i);
                     nums.set(i, nums.get(j));
